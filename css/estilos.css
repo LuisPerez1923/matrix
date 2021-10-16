@@ -1,0 +1,161 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*reset para rems  62.5% = 10px de 16px*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*Globales*/
+.contenedor{
+    max-width: 120rem; /* = 1200px*/
+    margin-left: auto;
+    margin-right: auto; /*casi siempre se ocupa para centrar elementos*/
+    width: 95%;
+}
+
+.contenedor-chico{
+    max-width: 70rem; /* = 800px*/
+    margin-left: auto;
+    margin-right: auto; /*casi siempre se ocupa para centrar elementos*/
+    width: 90%;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+
+}
+
+h4{
+    font-size: 2.6rem;
+
+}
+
+/*utilidades*/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+.d-block{
+    display: block!important;
+}
+
+.contenido-centrado{
+    max-width: 800px;
+}
+
+/************* Estilos propios *******************/
+
+.cabeza-sitio {
+   background-color: rgb(141, 153, 159); 
+   -webkit-box-shadow: 1px 2px 12px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 12px -2px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 12px -2px rgba(0,0,0,0.75);
+}
+
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra a, p {
+    margin: 0;
+   
+}
+
+.enlaces {
+    flex-basis: calc(50% - 10px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 4px 27px;
+
+    transition: all 0.4s linear;
+}
+
+.enlaces a:first-of-type{
+    background-color: #717a7f;
+}
+
+.enlaces a:hover{
+    background-color: #717a7f;
+}
+
+.hashtag {
+    flex-basis: calc(30% - 10px);
+}
+
+.hashtag p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.iconos-redes {
+    flex-basis: calc(20% - 10px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos-redes img {
+    height: 20px;
+}
+
+.imagen-choice {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.imagen-choice img {
+    height: 12px;
+    text-align: center;
+    
+}
+
+.pastillas {
+    margin-top: 230px;
+    text-align: center;
+}
+
+.pastillas img{
+    height: 270px;
+}
+
+.pastillas img:first-of-type{
+    margin-right: 50px;
+}
